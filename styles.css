@@ -44,6 +44,17 @@ img{
     padding:.25em;
     flex-shrink: 1;
 }
+video{
+    display:flex;
+    flex-direction:row;
+    width: 240px;
+    padding:.25em;
+    flex-shrink: 1;
+    flex-wrap:wrap;
+}
+video source{
+    max-width: 100%
+}
 @media screen and (min-width:661px){
     body{
         flex-direction:row;
